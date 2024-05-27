@@ -8,11 +8,11 @@ public class homework2 {
         if (scanner.hasNextInt()) {
             number = scanner.nextInt();
 
-            if (number > 999 && number < 10000) {
+            if (number > 999 && number < 10000 || number < -999 && number > -10000) {
 
 
-                int ab = (number / 100);
-                int cd = (number % 100);
+                int ab = Math.abs(number / 100);
+                int cd = Math.abs(number % 100);
 
                 System.out.println("Сумма ab+cd = " + (ab + cd));//Вывод суммы.
             } else {

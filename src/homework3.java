@@ -10,9 +10,9 @@ public class homework3 {
 
             number = scanner.nextInt();
 
-            if (number > 9999 && number < 100000) {
+            if (number > 9999 && number < 100000 || number < -9999 && number > -100000) {
 
-                int a = ((number/100)%10);
+                int a = Math.abs((number/100)%10);
 
 
 

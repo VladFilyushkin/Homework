@@ -8,7 +8,7 @@ public class homework21 {
         if (scanner.hasNextInt()) {
             number = scanner.nextInt();
 
-            if (number > 999 && number < 10000) {
+            if (number > 999 && number < 10000 || number < -999 && number > -10000) {
 
 
                 int a = (number / 1000);
