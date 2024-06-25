@@ -3,10 +3,10 @@ package OOP;
 import java.util.Arrays;
 
 public class Phone {
+
     private String phoneNumber;
     private String phoneName;
     private double phoneWeight;
-
 
     public Phone(String phoneNumber, String phoneName, double phoneWeight) {
         this.phoneNumber = phoneNumber;
@@ -22,7 +22,7 @@ public class Phone {
         return phoneNumber;
     }
 
-    public void receiveCall2(String callerName, String callerNumber) {
+    public void receiveCall(String callerName, String callerNumber) {
         System.out.println("Звонит: " + callerName + "\n" + "Номер: " + callerNumber);
     }
 
@@ -50,10 +50,4 @@ public class Phone {
 
     }
 
-
 }
-
-
-
-
-

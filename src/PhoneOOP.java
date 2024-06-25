@@ -1,5 +1,6 @@
 package OOP;
 
+
 public class PhoneOOP {
     public static void main(String[] args) {
 
@@ -16,18 +17,9 @@ public class PhoneOOP {
         System.out.println(xiaomi.getPhoneNumber());
 
         iphone.receiveCall("Влад");
-
-        iphone.receiveCall2("Влад", "+375294374347");
-
+        iphone.receiveCall("Влад","3752943576457");
 
         xiaomi.sendMessage("+3752943576457", "+37529435768757", "+37529435676457");
-
-
-
-
-
-
-
 
     }
 
